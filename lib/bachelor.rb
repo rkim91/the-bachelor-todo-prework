@@ -49,8 +49,3 @@ def get_average_age_for_season(data, season)
   end
   avg = avg / counter
 end
-
-counter = 0
-sum = 0
-sum += person["age"].to_f
-counter += 1
