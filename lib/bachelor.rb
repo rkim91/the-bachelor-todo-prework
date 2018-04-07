@@ -3,6 +3,7 @@ def get_first_name_of_season_winner(data, season)
     person.each do |details, values|
       if values == "status"
         return [status][outcome]
+      end
     end
   end
 end
