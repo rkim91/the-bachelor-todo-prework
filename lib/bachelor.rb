@@ -4,6 +4,7 @@ def get_first_name_of_season_winner(data, season)
       if values == "Winner"
         return :name
       end
+    end
   end
 end
 
