@@ -1,7 +1,6 @@
 require "pry"
 def get_first_name_of_season_winner(data, season)
-  data.each do |seasons, people|
-    if seasons.to_s == season
+  data[season].each do |seasons, people|
       people.each do |person|
         if person["status"] == "Winner"
           return person["name"].split.first
